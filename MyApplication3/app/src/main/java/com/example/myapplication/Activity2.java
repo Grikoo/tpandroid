@@ -31,9 +31,16 @@ public class Activity2 extends AppCompatActivity {
         Log.e("DEVE0304", "Activity2:onCreate() : Intent key value : " + firstKeyName);
 
         threadIsRunning = false;
-
     }
 
+    public void Testboutton(View view){
+       View myboutton3 = findViewById(R.id.button3);
+       myboutton3.setVisibility(View.INVISIBLE);
+    }
+    public void Testboutton2(View view){
+        View myboutton3 = findViewById(R.id.button3);
+        myboutton3.setVisibility(View.VISIBLE);
+    }
 
     public void runThread(View view){
 

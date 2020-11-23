@@ -9,7 +9,8 @@
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical" >
+        android:orientation="vertical"
+        >
 
         <TextView android:id="@+id/text"
             android:layout_width="wrap_content"
@@ -28,6 +29,10 @@
             android:text="Stop thread"
             android:onClick="stopThread"/>
 
+        <TextView android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rik activity" />
 
         <EditText
             android:id="@+id/myDataField"
@@ -36,17 +41,28 @@
             android:inputType="number" />
 
 
-        <Button android:id="@+id/buttonSaveData"
+        <TextView android:id="@+id/text3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Save data"
-            android:onClick="saveData"/>
+            android:text="TEST bouton"
+            />
 
-        <Button android:id="@+id/buttonLoadData"
+        <Button android:id="@+id/button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Load data"
-            android:onClick="loadData"/>
+            android:text="Disparaitre"
+            android:onClick="Testboutton"
+           />
+
+        <Button android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="apparaitre"
+            android:onClick="Testboutton2"
+            />
+
+
+
 
     </LinearLayout>
 
